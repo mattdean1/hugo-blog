@@ -1,0 +1,16 @@
+languageCode = "en-us"
+title = "Some Posts"
+baseurl = "https://mattdean1.github.io/"
+[params]
+    sidebartitle = "Some posts"
+    sidebartagline = "by Matt Dean"
+
+[[menu.main]]
+  name = "Blog"
+  url = "/"
+[[menu.main]]
+  name = "About"
+  url = "https://www.linkedin.com/in/deanmatt/"
+[[menu.main]]
+  name = "Portfolio"
+  url = "https://github.com/mattdean1"

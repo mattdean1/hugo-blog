@@ -1,0 +1,27 @@
+<div class="sidebar pure-u-1 pure-u-md-1-4">
+  <div class="header">
+    {{ partial "sidebarheader.html" . }}
+
+	{{ if .Site.Params.sidebarphoto}}
+	  <img src="{{.Site.Params.sidebarphoto}}" class="sidebarphoto">
+	{{ end }}
+
+    {{ if .Site.Params.sidebartitle }}<h1 class="brand-title">{{ .Site.Params.sidebartitle }}</h1>{{ end }}
+    {{ if .Site.Params.sidebartagline }}<h2 class="brand-tagline">{{ .Site.Params.sidebartagline }}</h2>{{ end }}
+
+    <nav class="nav">
+      <ul class="nav-list">
+          <li class="nav-item"><a href="/">Blog</a></li><br>
+          <li class="nav-item"><a href="https://www.linkedin.com/in/deanmatt/">About</a></li><br>
+          <li class="nav-item"><a href="https://github.com/mattdean1">Portfolio</a></li><br>
+      </ul>
+    </nav>
+
+    <div class="social-buttons">
+        <a href="https://github.com/mattdean1" target="_blank"><i class='fa fa-github fa-2x'></i></a>
+        <a href="https://twitter.com/TerseTweet" target="_blank"><i class='fa fa-twitter fa-2x'></i></a>
+        <a href="https://www.linkedin.com/in/deanmatt" target="_blank"><i class='fa fa-linkedin-square fa-2x'></i></a>
+    </div>
+
+  </div>
+</div>
